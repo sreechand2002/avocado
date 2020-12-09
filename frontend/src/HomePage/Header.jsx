@@ -11,13 +11,13 @@ const Headers = () => {
     return (
         <div className='show' style={{ margin: 'auto', backgroundColor: '#Eeedb9', position: 'sticky', top: 0, zIndex: '999' }}>
             <Grid>
-                <Grid.Row>
+                <Grid.Row only='computer'>
                     <Grid.Column width={4}>
-                        <Link>
-                            <img style={{ height: '150px' }} src='/images/avocado1.svg' alt="Logo" />
+                        <Link to='/'>
+                            <img style={{ height: '150px' }} src='/images/Logo_White.svg' alt="Logo" />
                         </Link>
                     </Grid.Column>
-                    <Grid.Column verticalAlign='middle' width={12}>
+                    <Grid.Column verticalAlign='middle' computer={12}>
                         <Menu secondary floated='right' color='brown'>
                             <NavLink to='/'>
                                 <Menu.Item
@@ -78,7 +78,7 @@ const Headers = () => {
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-            <hr></hr>
+
         </div>
     )
 
