@@ -61,7 +61,7 @@ const Headers = () => {
                                 </Menu.Item>
                             </NavLink>
 
-                            <NavLink to='/contact-us'>
+                            <NavLink to='/contactus'>
                                 <Menu.Item
                                     name="Contact-Us"
                                     active={Item === "Contact-Us"}
