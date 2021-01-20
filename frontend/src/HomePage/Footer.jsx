@@ -8,14 +8,9 @@ const Footer = () => {
         <div style={{ margin: 'auto', backgroundColor: '#Eeedb9', color: 'black' }}>
             <div style={{ marginLeft: '2rem' }}>
                 <Grid>
-                    <Grid.Row >
-                        <Grid.Column computer={4} mobile={16} verticalAlign='top'>
-                            <Link to='/'>
-                                <img style={{ height: '150px' }} src='/images/Logo_White.svg' alt="Logo" />
-                            </Link>
-                        </Grid.Column>
+                    <Grid.Row only="computer" >
 
-                        <Grid.Column computer={3} mobile={8} style={{ margin: '2rem 0' }}>
+                        <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
                             <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%', height: '320px' }}>
                                 <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
                                     <h2>Services</h2>
@@ -39,7 +34,7 @@ const Footer = () => {
                         </Grid.Column>
 
 
-                        <Grid.Column computer={3} mobile={8} style={{ margin: '2rem 0' }}>
+                        <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
                             <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%' }}>
                                 <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
                                     <h2>Company</h2>
@@ -50,7 +45,7 @@ const Footer = () => {
                             </Card>
                         </Grid.Column>
 
-                        <Grid.Column computer={3} mobile={8} style={{ margin: '2rem 0' }}>
+                        <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
                             <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%', height: '320px' }}>
                                 <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
                                     <h2>Get In Touch</h2>
@@ -63,7 +58,7 @@ const Footer = () => {
 
                         </Grid.Column>
 
-                        <Grid.Column computer={3} mobile={8} style={{ margin: '2rem 0' }}>
+                        <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
                             <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%' }}>
                                 <h2 style={{ color: 'white' }}>Social media </h2>
                                 <hr style={{ width: '50%' }} />

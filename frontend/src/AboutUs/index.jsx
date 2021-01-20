@@ -11,7 +11,7 @@ const About = () => {
                 <Grid centered>
                     <Grid.Row style={{ margin: '3rem 0' }}>
                         <Grid.Column computer={4} mobile={16}>
-                            <Image style={{ border: '0.4rem solid #F5B7B1' }} circular bordered src='/images/Sree_Chand1.png' />
+                            <Image style={{ border: '0.4rem solid #F5B7B1' }} circular bordered src='/images/OurTeam/Sree_Chand1.png' />
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', margin: '1rem 0' }}>
                                 <a target="blank" href='https://www.linkedin.com/in/sree-chand-4b0789191/'>
                                     <StyledIcon name='linkedin' size='huge' />
@@ -24,7 +24,7 @@ const About = () => {
                         </Grid.Column>
 
                         <Grid.Column computer={4} mobile={16}>
-                            <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/Shreyas1.png' />
+                            <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/OurTeam/Shreyas1.png' />
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', margin: '1rem 0' }}>
                                 <a target="blanlk" href="https://www.linkedin.com/in/shreyas-ganesh-245b3b1a6/">
                                     <StyledIcon name='linkedin' size='huge' />
@@ -37,7 +37,7 @@ const About = () => {
                         </Grid.Column>
 
                         <Grid.Column computer={4} mobile={16}>
-                            <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/Xitix1.png' />
+                            <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/OurTeam/Xitix1.png' />
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', margin: '1rem 0' }}>
                                 <a target="blank" href="https://www.linkedin.com/in/xitiz-verma-1b763b190/">
                                     <StyledIcon name='linkedin' size='huge' />
@@ -52,7 +52,21 @@ const About = () => {
                     </Grid.Row>
                 </Grid>
             </div>
+            <Grid >
+                <Grid.Row>
+                    <Grid.Column width={5} style={{ backgroundColor: '#Eeedb9', margin: '2rem' }}>
+                        Mission
+                    </Grid.Column>
 
+                    <Grid.Column width={5}>
+                        Vision
+                    </Grid.Column>
+
+                    <Grid.Column width={5}>
+                        Goals
+                    </Grid.Column>
+                </Grid.Row>
+            </Grid>
         </div>
     );
 }

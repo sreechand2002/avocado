@@ -8,7 +8,7 @@ const ContactUs = () => {
             <Grid>
                 <Grid.Row>
                     <Grid.Column width={8}>
-                        <Image style={{ marginLeft: '4rem' }} size='big' src='/images/12345.png' />
+                        <Image style={{ marginLeft: '4rem' }} size='big' src='/images/contactus.png' />
                     </Grid.Column>
                     <Grid.Column verticalAlign='middle' width={8}>
                         <Forms />

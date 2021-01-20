@@ -24,7 +24,7 @@ const Body = () => {
                                         <Grid>
                                             <Grid.Row centered style={{ backgroundColor: '#ffc0a7' }}>
                                                 <Grid.Column width={6}>
-                                                    <Image style={{ height: 'auto', width: '450px', padding: '1.5rem 1rem' }} src='/images/Slide_1.1.png' alt="Logo" />
+                                                    <Image style={{ height: 'auto', width: '550px', padding: '0rem 1rem' }} src='/images/Slide_1.1.png' alt="Logo" />
                                                 </Grid.Column>
 
                                                 <Grid.Column width={10} style={{ position: 'relative' }}  >
@@ -55,7 +55,7 @@ const Body = () => {
                                         <Grid>
                                             <Grid.Row centered style={{ backgroundColor: '#ffffcb' }}>
                                                 <Grid.Column width={6} >
-                                                    <Image style={{ height: 'auto', width: '500px', padding: '2rem 1rem' }} src='/images/slide3.2.png' alt="Logo" />
+                                                    <Image style={{ height: 'auto', width: '550px', padding: '2rem 1rem' }} src='/images/slide3.2.png' alt="Logo" />
                                                 </Grid.Column>
                                                 <Grid.Column width={10} style={{ position: 'relative' }}>
                                                     <Image style={{ width: '600px', top: 0, right: 15 }} src='/images/social_marketing.png' />
@@ -70,7 +70,7 @@ const Body = () => {
                                         <Grid>
                                             <Grid.Row centered style={{ backgroundColor: '#c9f7ff' }}>
                                                 <Grid.Column width={8} verticalAlign='middle'>
-                                                    <Image style={{ height: 'auto', width: '600px', padding: '3rem 0' }} src='/images/slide4.1.png' alt="Logo" />
+                                                    <Image style={{ height: 'auto', width: '700px', padding: '3rem 0' }} src='/images/slide4.1.png' alt="Logo" />
                                                 </Grid.Column>
                                                 <Grid.Column width={8} style={{ position: 'relative' }}>
                                                     <Image style={{ width: '400px', top: 0, right: 10 }} src='/images/consultancy.png' />
@@ -108,22 +108,6 @@ const Body = () => {
                     <Header as='h2' style={{ color: 'white' }}>Consultancy</Header>
                 </Grid.Row>
             </Grid>
-
-            {/*  <Grid>
-                <Grid.Row style={{ margin: '3rem' }}>
-                    <Grid.Column computer={8} mobile={16}>
-                        <Image style={{ margin: '2rem auto', border: '3px solid #eeedb9', }} src='/images/AboutUS.jpg' size='large' />
-                    </Grid.Column>
-
-                    <Grid.Column computer={8} mobile={16}>
-                        <h1 style={{ color: '#eeedb9' }}>Why Avocado</h1>
-                        <h2 style={{ color: 'white' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo labore, quam provident praesentium, amet, laboriosam ducimus fugit repudiandae nesciunt quas! Impedit iste maiores tempore, sequi eligendi modi recusandae ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia a laboriosam libero tempore velit laudantium quibusdam odit voluptates, assumenda, sed, officiis praesentium autem maiores! At, impedit. Dolores, amet. Culpa, vitae?.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo labore, quam provident praesentium, amet, laboriosam ducimus fugit repudiandae nesciunt quas! Impedit iste maiores tempore, sequi eligendi modi recusandae ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia a laboriosam libero tempore velit laudantium quibusdam odit voluptates, assumenda, sed, officiis praesentium autem maiores! At, impedit. Dolores, amet. Culpa, vitae?</h2>
-                    </Grid.Column>
-                </Grid.Row>
-
-            </Grid> */}
-
-
         </div>
 
 
