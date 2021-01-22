@@ -1,0 +1,66 @@
+body  {background-color: #Eeedb9 ;             /* #573822';//#Eeedb9 */
+    color : rgb(0, 0, 0);
+    padding : 0px 50px 30px 50px;
+    font-size: 15px;}
+header {text-align:center;}
+h1     {color: rgb(0, 0, 0);
+     font-family:'Courier New', Courier, monospace ;
+     font-weight: bold;
+     font-size: 60px;  }
+h4    {color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif }
+
+.col-25
+{ 
+float:left;
+width :15%;
+}
+
+.col-75
+{
+float:left;
+font-family: Verdana;
+
+}
+.row
+{ 
+padding :10px;
+}
+
+button
+{
+ 
+ width: 40%;
+ float: left;
+ background-color: rgb(0, 47, 255);
+ color: rgb(255, 255, 255); 
+ padding: 8px;
+ border-radius: 6px;
+ font-weight: bold;
+}
+button:hover 
+{
+ background-color: rgb(0, 29, 158);
+ border: 2px solid #000000;
+ box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
+}
+
+input, textarea 
+{
+background-color:  #Eeedb9 ;
+border: none;
+padding: 4px;
+
+} 
+.a
+{
+padding: 10px;
+}
+.b
+{  
+padding: 10px;
+width: 300px;
+border-bottom:blue solid;
+}
+
