@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image } from 'semantic-ui-react';
+import { Grid, Header, Image } from 'semantic-ui-react';
 
 const Webdev = () => {
   return (
@@ -15,6 +15,7 @@ const Webdev = () => {
           </Grid.Column>
 
           <Grid.Column verticalAlign='middle' computer={6} mobile={15}>
+            <Header>Web Development</Header>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum reprehenderit veritatis quibusdam ipsam a quo tempore culpa quisquam
               veniam blanditiis, sed soluta eum temporibus nulla beatae aut harum repellat necessitatibus!
@@ -26,6 +27,7 @@ const Webdev = () => {
         <Grid.Row centered style={{ padding: 0, margin: 0, backgroundColor: '#Eeedb9' }} id='social'>
           <Grid.Column computer={2} only='computer' />
           <Grid.Column verticalAlign='middle' computer={6} mobile={15}>
+            <Header>Social Marketing</Header>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum reprehenderit veritatis quibusdam ipsam a quo tempore culpa quisquam
               veniam blanditiis, sed soluta eum temporibus nulla beatae aut harum repellat necessitatibus!
@@ -49,6 +51,7 @@ const Webdev = () => {
             />
           </Grid.Column>
           <Grid.Column verticalAlign='middle' computer={6} mobile={15}>
+            <Header>Graphic Designing</Header>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum reprehenderit veritatis quibusdam ipsam a quo tempore culpa quisquam
               veniam blanditiis, sed soluta eum temporibus nulla beatae aut harum repellat necessitatibus!
@@ -58,7 +61,7 @@ const Webdev = () => {
           <Grid.Column computer={2} only='computer' />
         </Grid.Row>
 
-        <Grid.Row centered style={{ padding: 0, margin: 0, backgroundColor: '#Eeedb9' }} id='consultancy'>
+        {/* <Grid.Row centered style={{ padding: 0, margin: 0, backgroundColor: '#Eeedb9' }} id='consultancy'>
           <Grid.Column computer={2} only='computer' />
           <Grid.Column verticalAlign='middle' computer={6} mobile={15}>
             <p>
@@ -73,7 +76,7 @@ const Webdev = () => {
             />
           </Grid.Column>
           <Grid.Column computer={2} only='computer' />
-        </Grid.Row>
+        </Grid.Row> */}
       </Grid>
     </div>
   );

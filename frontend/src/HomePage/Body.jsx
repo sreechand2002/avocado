@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Grid, Image, Header } from 'semantic-ui-react';
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
+import { Helmet } from 'react-helmet';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const Body = () => {
@@ -10,15 +11,15 @@ const Body = () => {
       <Grid style={{ marginTop: '3rem' }}>
         <Grid.Row centered style={{ marginTop: '3rem' }}>
           <Grid.Column computer={5} mobile={6} style={{ backgroundColor: '#Eeedb9' }}>
-            <Image src='/Images/HPIcons/TAG2.png' />
+            <Image src='/Images/HPIcons/TAG2-min.png' />
           </Grid.Column>
 
           <Grid.Column computer={5} mobile={6} style={{ backgroundColor: '#Eeedb9' }}>
-            <Image src='/Images/HPIcons/TAG1.png' />
+            <Image src='/Images/HPIcons/TAG1-min.png' />
           </Grid.Column>
 
           <Grid.Column computer={5} mobile={6} style={{ backgroundColor: '#Eeedb9' }}>
-            <Image src='/Images/HPIcons/TAG3.png' />
+            <Image src='/Images/HPIcons/TAG3-min.png' />
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -29,7 +30,7 @@ const Body = () => {
               <CarouselProvider
                 naturalSlideWidth={200}
                 naturalSlideHeight={70}
-                totalSlides={4}
+                totalSlides={3}
                 interval={3000}
                 isPlaying='true'
                 style={{ width: '100%', margin: 'auto', padding: '2rem', border: '3px solid #Eeedb9' }}
@@ -105,7 +106,7 @@ const Body = () => {
                     </Grid>
                   </Slide>
 
-                  <Slide index={3}>
+                  {/* <Slide index={3}>
                     <Grid>
                       <Grid.Row centered style={{ backgroundColor: '#c9f7ff' }}>
                         <Grid.Column width={8} verticalAlign='middle'>
@@ -122,7 +123,7 @@ const Body = () => {
                         </Grid.Column>
                       </Grid.Row>
                     </Grid>
-                  </Slide>
+                  </Slide> */}
                 </Slider>
               </CarouselProvider>
             </div>
@@ -132,30 +133,23 @@ const Body = () => {
 
       <Grid centered style={{ marginTop: '5rem' }}>
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone1.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone1-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Web Development
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone2.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone2-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Graphic Designing
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone3.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone3-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Social Marketing
-          </Header>
-        </Grid.Row>
-
-        <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/Phone4.png' />
-          <Header as='h2' style={{ color: 'white' }}>
-            Consultancy
           </Header>
         </Grid.Row>
       </Grid>
@@ -166,38 +160,49 @@ const Body = () => {
         </Header>
         <Grid.Row style={{ margin: '1rem 3rem 4rem 3rem', backgroundColor: '#Eeedb9' }} textAlign='center'>
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/ClientCentric.png' />
+            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/ClientCentric-min.png' />
+            <Header as='h2' textAlign='center'>
+              Client-Centric
+            </Header>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, nostrum sint repellendus cupiditate, deserunt omnis minima ad ut
-              blanditiis harum voluptatem sequi molestiae tenetur corrupti dolores ipsa doloribus, ducimus atque.
+              Putting our clients first and at the core of your business in order to provide a positive experience and build long-term
+              relationships.Adhering to Client's needs ,preferences and Challenges in a unique way.
             </p>
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image style={{ marginLeft: '30%' }} size='small' src='/images/HPIcons/OutofBox.png' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, nostrum sint repellendus cupiditate, deserunt omnis minima ad ut
-              blanditiis harum voluptatem sequi molestiae tenetur corrupti dolores ipsa doloribus, ducimus atque.
-            </p>
+            <Image style={{ marginLeft: '30%' }} size='small' src='/images/HPIcons/OutofBox-min.png' />
+            <Header as='h2' textAlign='center'>
+              Out of the Box
+            </Header>
+            <p>Our team of agile developers always use their imagination and creativity in artistic ways!</p>
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/MagneticUE.png' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, nostrum sint repellendus cupiditate, deserunt omnis minima ad ut
-              blanditiis harum voluptatem sequi molestiae tenetur corrupti dolores ipsa doloribus, ducimus atque.
-            </p>
+            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/MagneticUE-min.png' />
+            <Header as='h2' textAlign='center'>
+              Magnetic User Experience
+            </Header>
+            <p>Adhering to Client/Customer s needs ,preferences and Challenges in a unique way.</p>
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/EnablingPerfection.png' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, nostrum sint repellendus cupiditate, deserunt omnis minima ad ut
-              blanditiis harum voluptatem sequi molestiae tenetur corrupti dolores ipsa doloribus, ducimus atque.
-            </p>
+            <Image size='small' style={{ marginLeft: '30%', marginTop: '1rem' }} src='/images/HPIcons/EnablingPerfection.png' />
+
+            <Header as='h2' textAlign='center'>
+              Enabling Prefection
+            </Header>
+            <p>Always Delivering high-quality, high-level services with unmatched precision!</p>
           </Grid.Column>
         </Grid.Row>
       </Grid>
+
+      <Helmet>
+        <title>Avocado - Home</title>
+        <meta property='og:title' content='Avocado' />
+        <meta property='og:description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
+        <meta property='og:image' content='/images/Logo_White.svg' />
+      </Helmet>
     </div>
   );
 };

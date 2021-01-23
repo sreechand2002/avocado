@@ -68,6 +68,10 @@ const Footer = () => {
           </Grid.Row>
         </Grid>
       </div>
+      <hr style={{ width: '80%' }} />
+      <p style={{ padding: '1.5rem' }}>
+        Copyright Avocado.ind.in @2021 Bengaluru,India <br /> made with <Icon name='heart' color='brown' /> by Avocado
+      </p>
     </div>
   );
 };

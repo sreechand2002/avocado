@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Dropdown } from 'semantic-ui-react';
+import { Grid, Dropdown, Icon, Header } from 'semantic-ui-react';
 
 const MobileFooter = () => {
   return (
@@ -7,6 +7,22 @@ const MobileFooter = () => {
       <Grid>
         <Grid.Row only='mobile'>
           <Grid.Column mobile={16}>
+            <Header>Reach us Out:</Header>
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                textAlign: 'center',
+                margin: '1rem auto',
+                color: '#573822',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
+            >
+              <Icon size='big' name='facebook' />
+              <Icon size='big' name='linkedin' />
+              <Icon size='big' name='instagram' />
+            </div>
             <div>
               <Dropdown text='Company'>
                 <Dropdown.Menu style={{ backgroundColor: '#Eeedb9' }}>
@@ -34,7 +50,7 @@ const MobileFooter = () => {
               </Dropdown>
             </div>
 
-            <div>
+            <div style={{ margin: '2rem' }}>
               <Dropdown text='Services'>
                 <Dropdown.Menu style={{ backgroundColor: '#Eeedb9' }}>
                   <Dropdown.Item>

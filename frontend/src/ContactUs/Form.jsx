@@ -33,8 +33,8 @@ const Forms = () => {
             <input name='email' type='email' placeholder='example@gmail.com' required onChange={(e) => setData({ ...data, email: e.target.value })} />
           </Form.Field>
           <Form.Field width={8}>
-            <label style={{ fontSize: '1.2rem' }}>Number</label>
-            <input name='number' type='number' placeholder='123457890' required onChange={(e) => setData({ ...data, number: e.target.value })} />
+            <label style={{ fontSize: '1.2rem' }}>Ph. No.</label>
+            <input name='number' type='number' placeholder='' required onChange={(e) => setData({ ...data, number: e.target.value })} />
           </Form.Field>
           <Form.Field>
             <label style={{ fontSize: '1.2rem' }}>About</label>
@@ -42,7 +42,7 @@ const Forms = () => {
               name='description'
               rows='4'
               label='About'
-              placeholder='Tell us more about you...'
+              placeholder='Tell us more about your '
               required
               onChange={(e) => setData({ ...data, desc: e.target.value })}
             />
@@ -54,7 +54,7 @@ const Forms = () => {
             </Button>
           </div>
         </Form>
-        <Image size='small' src='images/contact1.png' style={{ position: 'absolute', left: -100, bottom: -50 }} />
+        <Image size='small' src='images/contact1-min.png' style={{ position: 'absolute', left: -100, bottom: -50 }} />
       </div>
     </div>
   );
