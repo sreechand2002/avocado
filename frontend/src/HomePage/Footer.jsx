@@ -21,9 +21,6 @@ const Footer = () => {
                   <a href='/services#social' style={{ color: 'white', margin: '1rem 0' }}>
                     <h3>Social Marketing</h3>
                   </a>
-                  <a href='/services#consultancy' style={{ color: 'white', margin: '1rem 0' }}>
-                    <h3>Consultancy</h3>
-                  </a>
                 </div>
               </Card>
             </Grid.Column>
