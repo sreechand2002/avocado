@@ -41,11 +41,6 @@ const MobileFooter = () => {
                       Social Marketing
                     </a>
                   </Dropdown.Item>
-                  <Dropdown.Item>
-                    <a style={{ color: '#573822' }} href='/services#consultancy'>
-                      Consultancy
-                    </a>
-                  </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>

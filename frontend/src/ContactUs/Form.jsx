@@ -12,7 +12,7 @@ const Forms = () => {
       data1.append(pair[0], pair[1]);
     }
     e.preventDefault();
-    fetch('/contactus', {
+    fetch('https://avocado-contactus.herokuapp.com/contactus', {
       method: 'post',
       body: data1
     });
