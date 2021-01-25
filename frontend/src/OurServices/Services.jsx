@@ -9,7 +9,7 @@ const Webdev = () => {
           <Grid.Column computer={2} only='computer' />
           <Grid.Column computer={6} mobile={15}>
             <Image
-              src='/images/OurServices/webdevicon.png'
+              src='/Images/OurServices/webdevicon.png'
               style={{ width: '650px', border: '3px solid #Eeedb9', margin: '5rem 0', borderRadius: '20px' }}
             />
           </Grid.Column>
@@ -35,7 +35,7 @@ const Webdev = () => {
           </Grid.Column>
           <Grid.Column computer={6} mobile={15}>
             <Image
-              src='/images/OurServices/smmicon.png'
+              src='/Images/OurServices/smmicon.png'
               style={{ width: '650px', border: '3px solid #573822', margin: '5rem 0', borderRadius: '20px' }}
             />
           </Grid.Column>
@@ -46,7 +46,7 @@ const Webdev = () => {
           <Grid.Column computer={2} only='computer' />
           <Grid.Column computer={6} mobile={15}>
             <Image
-              src='/images/OurServices/graphicdesignicon.png'
+              src='/Images/OurServices/graphicdesignicon.png'
               style={{ width: '650px', border: '3px solid #Eeedb9', margin: '5rem 0', borderRadius: '20px' }}
             />
           </Grid.Column>

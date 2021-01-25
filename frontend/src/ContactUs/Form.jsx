@@ -42,7 +42,7 @@ const Forms = () => {
               name='description'
               rows='4'
               label='About'
-              placeholder='Tell us more about your '
+              placeholder='Description'
               required
               onChange={(e) => setData({ ...data, desc: e.target.value })}
             />
@@ -54,7 +54,7 @@ const Forms = () => {
             </Button>
           </div>
         </Form>
-        <Image size='small' src='images/contact1-min.png' style={{ position: 'absolute', left: -100, bottom: -50 }} />
+        <Image size='small' alt='Contact Us' src='Images/contact1-min.png' style={{ position: 'absolute', left: -100, bottom: -50 }} />
       </div>
     </div>
   );

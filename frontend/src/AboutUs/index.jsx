@@ -13,7 +13,7 @@ const About = () => {
         <Grid centered>
           <Grid.Row style={{ margin: '3rem 0' }}>
             <Grid.Column computer={4} mobile={16} style={{ margin: '3rem 0' }}>
-              <Image style={{ border: '0.4rem solid #F5B7B1' }} circular bordered src='/images/OurTeam/Sree_Chand1.png' />
+              <Image style={{ border: '0.4rem solid #F5B7B1' }} circular bordered src='/Images/OurTeam/Sree_Chand1.png' />
               <Header as='h2' color='teal' textAlign='center'>
                 Sree Chand
                 <br /> (Developer)
@@ -29,7 +29,7 @@ const About = () => {
             </Grid.Column>
 
             <Grid.Column computer={4} mobile={16} style={{ margin: '3rem 0' }}>
-              <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/OurTeam/Shreyas1.png' />
+              <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/Images/OurTeam/Shreyas1.png' />
               <Header as='h2' color='teal' textAlign='center'>
                 Shreyas Ganesh
                 <br /> (Designer)
@@ -45,7 +45,7 @@ const About = () => {
             </Grid.Column>
 
             <Grid.Column computer={4} mobile={16} style={{ margin: '3rem 0' }}>
-              <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/images/OurTeam/Xitix1.png' />
+              <Image style={{ border: '7px solid #F5B7B1' }} circular bordered src='/Images/OurTeam/Xitix1.png' />
               <Header as='h2' color='teal' textAlign='center'>
                 Xitiz Verma
                 <br /> (Developer)
@@ -66,7 +66,7 @@ const About = () => {
         <Grid.Row centered>
           <Grid.Column computer={4} mobile={16} style={{ backgroundColor: '#Eeedb9', margin: '2rem ' }}>
             <Header as='h2' textAlign='center' style={{ marginTop: '2rem' }}>
-              Vision
+              Our Vision
               <hr style={{ width: '50%' }} />
             </Header>
             <p style={{ padding: '1.5rem ', textAlign: 'justify' }}>
@@ -83,7 +83,7 @@ const About = () => {
 
           <Grid.Column computer={4} mobile={16} style={{ backgroundColor: '#Eeedb9', margin: '2rem ' }}>
             <Header as='h2' textAlign='center' style={{ marginTop: '2rem' }}>
-              Mission
+              Our Mission
               <hr style={{ width: '50%' }} />
             </Header>
             <p style={{ padding: '1.5rem ', textAlign: 'justify' }}>
@@ -119,7 +119,7 @@ const About = () => {
         <title>Avocado - About us</title>
         <meta property='og:title' content='Avocado' />
         <meta property='og:description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
-        <meta property='og:image' content='/images/Logo_White.svg' />
+        <meta property='og:image' content='/Images/Logo_White.svg' />
       </Helmet>
     </div>
   );

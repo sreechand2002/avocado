@@ -9,7 +9,7 @@ const ContactUs = () => {
       <Grid>
         <Grid.Row>
           <Grid.Column only='computer' computer={8}>
-            <Image style={{ marginLeft: '4rem' }} size='big' src='/images/contactus-min.png' />
+            <Image style={{ marginLeft: '4rem' }} size='big' src='/Images/contactus-min.png' />
           </Grid.Column>
           <Grid.Column verticalAlign='middle' computer={8} mobile={16}>
             <Forms />

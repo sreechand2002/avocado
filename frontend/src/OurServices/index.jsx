@@ -13,7 +13,7 @@ const OurServive = () => {
         <title>Avocado - Servies</title>
         <meta property='og:title' content='Avocado' />
         <meta property='og:description' content='Looking for a Service? Check out Avocado' />
-        <meta property='og:image' content='/images/Logo_White.svg' />
+        <meta property='og:image' content='/Images/Logo_White.svg' />
       </Helmet>
     </div>
   );

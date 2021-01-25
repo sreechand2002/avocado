@@ -9,7 +9,7 @@ const Footer = () => {
           <Grid.Row only='computer'>
             <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
               <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%', height: '320px' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', color: 'white' }}>
                   <h2>Services</h2>
                   <hr style={{ width: '50%' }} />
                   <a href='/services#web' style={{ color: 'white', margin: '1rem 0' }}>
@@ -30,15 +30,19 @@ const Footer = () => {
                 <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
                   <h2>Company</h2>
                   <hr style={{ width: '50%' }} />
-                  <h3>About Us</h3>
-                  <h3>Contact us</h3>
+                  <a href='/about' style={{ color: 'white', margin: '1rem 0' }}>
+                    <h3>About Us</h3>
+                  </a>
+                  <a href='/contact-us' style={{ color: 'white', margin: '1rem 0' }}>
+                    <h3>Contact us</h3>
+                  </a>
                 </div>
               </Card>
             </Grid.Column>
 
             <Grid.Column computer={4} style={{ margin: '2rem 0' }}>
               <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%', height: '320px' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', margin: 'auto', color: 'white' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'center', color: 'white' }}>
                   <h2>Get In Touch</h2>
                   <hr style={{ width: '50%' }} />
                   <h3>contactus@avocado.in</h3>
@@ -55,7 +59,7 @@ const Footer = () => {
               <Card style={{ backgroundColor: '#573822', padding: '1rem', width: '80%' }}>
                 <h2 style={{ color: 'white' }}>Social media </h2>
                 <hr style={{ width: '50%' }} />
-                <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', margin: 'auto', color: 'white' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', margin: 'auto', color: 'white', padding: '1rem' }}>
                   <Icon size='big' name='facebook' />
                   <Icon size='big' name='linkedin' />
                   <Icon size='big' name='instagram' />

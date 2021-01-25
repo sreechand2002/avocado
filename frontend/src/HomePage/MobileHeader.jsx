@@ -49,7 +49,7 @@ const MobileHeader = () => {
         <Grid.Row only='mobile' textAlign='right'>
           <Grid.Column mobile={8} textAlign='left'>
             <Link to='/'>
-              <img src='/images/Logo_White.svg' width='100' height='100' alt='Avocado' />
+              <img src='/Images/Logo_White.svg' width='100' height='100' alt='Avocado' />
             </Link>
           </Grid.Column>
 

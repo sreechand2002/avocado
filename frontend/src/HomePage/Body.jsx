@@ -40,12 +40,12 @@ const Body = () => {
                     <Grid>
                       <Grid.Row centered style={{ backgroundColor: '#ffc0a7' }}>
                         <Grid.Column width={6}>
-                          <Image style={{ height: 'auto', width: '550px', padding: '0rem 1rem' }} src='/images/Slide_1.1.png' alt='Logo' />
+                          <Image style={{ height: 'auto', width: '550px', padding: '0rem 1rem' }} src='/Images/Slide_1.1.png' alt='Logo' />
                         </Grid.Column>
 
                         <Grid.Column width={10} style={{ position: 'relative' }}>
-                          <Image style={{ width: '600px', top: 0, right: 10 }} src='/images/web_dev.png' />
-                          <Image style={{ position: 'absolute', bottom: 0, right: 30, width: '200px' }} src='/images/slide_1.2.png' alt='Logo' />
+                          <Image style={{ width: '600px', top: 0, right: 10 }} src='/Images/web_dev.png' />
+                          <Image style={{ position: 'absolute', bottom: 0, right: 30, width: '200px' }} src='/Images/slide_1.2.png' alt='Logo' />
                           <div style={{ width: '50%' }}>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore accusamus hic molestias non minus est repudiandae
@@ -70,11 +70,11 @@ const Body = () => {
                     <Grid>
                       <Grid.Row centered style={{ backgroundColor: '#c2c2c2' }}>
                         <Grid.Column width={8} verticalAlign='middle'>
-                          <Image style={{ height: 'auto', width: '750px', padding: '5rem 0' }} src='/images/slide2.1.png' alt='Logo' />
+                          <Image style={{ height: 'auto', width: '750px', padding: '5rem 0' }} src='/Images/slide2.1.png' alt='Logo' />
                         </Grid.Column>
                         <Grid.Column width={8} style={{ position: 'relative' }}>
-                          <Image style={{ width: '600px', top: 0, right: '12.5%' }} src='/images/graphic_design.png' />
-                          <Image style={{ position: 'absolute', bottom: 20, right: 30 }} size='medium' src='/images/slide2.2.png' alt='Logo' />
+                          <Image style={{ width: '600px', top: 0, right: '12.5%' }} src='/Images/graphic_design.png' />
+                          <Image style={{ position: 'absolute', bottom: 20, right: 30 }} size='medium' src='/Images/slide2.2.png' alt='Logo' />
                           <a href='/services#graphic'>
                             <Button style={{ position: 'absolute', bottom: 50, left: -50, color: 'white' }}>Know More</Button>
                           </a>
@@ -87,13 +87,13 @@ const Body = () => {
                     <Grid>
                       <Grid.Row centered style={{ backgroundColor: '#ffffcb' }}>
                         <Grid.Column width={6}>
-                          <Image style={{ height: 'auto', width: '550px', padding: '2rem 1rem' }} src='/images/slide3.2.png' alt='Logo' />
+                          <Image style={{ height: 'auto', width: '550px', padding: '2rem 1rem' }} src='/Images/slide3.2.png' alt='Logo' />
                         </Grid.Column>
                         <Grid.Column width={10} style={{ position: 'relative' }}>
-                          <Image style={{ width: '600px', top: 0, right: 15 }} src='/images/social_marketing.png' />
+                          <Image style={{ width: '600px', top: 0, right: 15 }} src='/Images/social_marketing.png' />
                           <Image
                             style={{ height: 'auto', width: '300px', position: 'absolute', bottom: 0, right: 30 }}
-                            src='/images/slide3.1.png'
+                            src='/Images/slide3.1.png'
                             alt='Logo'
                           />
                           <a href='/services#social'>
@@ -133,21 +133,21 @@ const Body = () => {
 
       <Grid centered style={{ marginTop: '5rem' }}>
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone1-min.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone1-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Web Development
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone2-min.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone2-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Graphic Designing
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/images/phone3-min.png' />
+          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone3-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Social Marketing
           </Header>
@@ -160,7 +160,7 @@ const Body = () => {
         </Header>
         <Grid.Row style={{ margin: '1rem 3rem 4rem 3rem', backgroundColor: '#Eeedb9' }} textAlign='center'>
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/ClientCentric-min.png' />
+            <Image size='small' style={{ marginLeft: '30%' }} src='/Images/HPIcons/ClientCentric-min.png' />
             <Header as='h2' textAlign='center'>
               Client-Centric
             </Header>
@@ -171,7 +171,7 @@ const Body = () => {
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image style={{ marginLeft: '30%' }} size='small' src='/images/HPIcons/OutofBox-min.png' />
+            <Image style={{ marginLeft: '30%' }} size='small' src='/Images/HPIcons/OutOfBox-min.png' />
             <Header as='h2' textAlign='center'>
               Out of the Box
             </Header>
@@ -179,7 +179,7 @@ const Body = () => {
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%' }} src='/images/HPIcons/MagneticUE-min.png' />
+            <Image size='small' style={{ marginLeft: '30%' }} src='/Images/HPIcons/MagneticUE-min.png' />
             <Header as='h2' textAlign='center'>
               Magnetic User Experience
             </Header>
@@ -187,7 +187,7 @@ const Body = () => {
           </Grid.Column>
 
           <Grid.Column computer={4} mobile={16}>
-            <Image size='small' style={{ marginLeft: '30%', marginTop: '1rem' }} src='/images/HPIcons/EnablingPerfection.png' />
+            <Image size='small' style={{ marginLeft: '30%', marginTop: '1rem' }} src='/Images/HPIcons/EnablingPerfection.png' />
 
             <Header as='h2' textAlign='center'>
               Enabling Prefection
@@ -200,8 +200,8 @@ const Body = () => {
       <Helmet>
         <title>Avocado - Home</title>
         <meta property='og:title' content='Avocado' />
-        <meta property='og:description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
-        <meta property='og:image' content='/images/Logo_White.svg' />
+        <meta name='description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
+        <meta property='og:image' content='/Images/Logo_White.svg' />
       </Helmet>
     </div>
   );

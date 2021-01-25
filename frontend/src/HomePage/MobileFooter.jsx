@@ -54,7 +54,7 @@ const MobileFooter = () => {
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item>
-                    <a style={{ color: '#573822' }} href='/contanctus'>
+                    <a style={{ color: '#573822' }} href='/contact-us'>
                       Contact Us
                     </a>
                   </Dropdown.Item>

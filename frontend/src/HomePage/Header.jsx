@@ -13,7 +13,7 @@ const Headers = () => {
         <Grid.Row only='computer'>
           <Grid.Column width={4}>
             <Link to='/'>
-              <img style={{ height: '150px' }} src='/images/Logo_White.svg' alt='Logo' />
+              <img style={{ height: '150px' }} src='/Images/Logo_White.svg' alt='Logo' />
             </Link>
           </Grid.Column>
           <Grid.Column verticalAlign='middle' computer={12}>
