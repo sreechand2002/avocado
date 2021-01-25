@@ -20,7 +20,9 @@ const MobileFooter = () => {
               }}
             >
               <Icon size='big' name='facebook' />
-              <Icon size='big' name='linkedin' />
+              <a href='https://www.linkedin.com/company/avocadopvtltd/' target='blank' style={{ color: '#573822' }}>
+                <Icon size='big' name='linkedin' />
+              </a>
               <Icon size='big' name='instagram' />
             </div>
             <div>

@@ -1,13 +1,16 @@
 import React from 'react';
 import Webdev from './Services';
 import Works from './Works';
+import MobileWorks from './MobileWorks';
 import { Helmet } from 'react-helmet';
 
 const OurServive = () => {
   return (
     <div style={{ backgroundColor: '#573822' }}>
       <Webdev />
+
       <Works />
+      <MobileWorks />
 
       <Helmet>
         <title>Avocado - Servies</title>

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button, Grid, Image, Header } from 'semantic-ui-react';
 import { CarouselProvider, Slider, Slide } from 'pure-react-carousel';
-import { Helmet } from 'react-helmet';
+import Styled from 'styled-components';
+
+import MetaTags from 'react-meta-tags';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const Body = () => {
@@ -46,7 +48,7 @@ const Body = () => {
                         <Grid.Column width={10} style={{ position: 'relative' }}>
                           <Image style={{ width: '600px', top: 0, right: 10 }} src='/Images/web_dev.png' />
                           <Image style={{ position: 'absolute', bottom: 0, right: 30, width: '200px' }} src='/Images/slide_1.2.png' alt='Logo' />
-                          <div style={{ width: '50%' }}>
+                          {/* <div style={{ width: '50%' }}>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore accusamus hic molestias non minus est repudiandae
                               amet aliquid, at quasi dicta corporis quaerat architecto officia facere similique sunt optio alias? Lorem ipsum dolor
@@ -55,7 +57,7 @@ const Body = () => {
                               consectetur adipisicing elit. Explicabo quidem doloribus, quae nulla quia facere laborum in eum fugiat perferendis,
                               doloremque hic labore delectus et vitae exercitationem, ab corrupti. Saepe!
                             </p>
-                          </div>
+                          </div> */}
                           <a href='/services#web'>
                             <Button style={{ position: 'absolute', bottom: 50, left: 120, backgroundColor: 'brown', color: 'white' }}>
                               Know More
@@ -133,21 +135,21 @@ const Body = () => {
 
       <Grid centered style={{ marginTop: '5rem' }}>
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone1-min.png' />
+          <StyledImage href='/services#web' style={{ width: '70%', padding: '1rem' }} src='/Images/phone1-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Web Development
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone2-min.png' />
+          <StyledImage href='/services#graphic' style={{ width: '70%', padding: '1rem' }} src='/Images/phone2-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Graphic Designing
           </Header>
         </Grid.Row>
 
         <Grid.Row only='mobile' mobile={16} style={{ margin: '1.2rem 0' }}>
-          <Image style={{ width: '70%', padding: '1rem', border: '2px solid white' }} src='/Images/phone3-min.png' />
+          <StyledImage href='/services#social' style={{ width: '70%', padding: '1rem' }} src='/Images/phone3-min.png' />
           <Header as='h2' style={{ color: 'white' }}>
             Social Marketing
           </Header>
@@ -197,14 +199,20 @@ const Body = () => {
         </Grid.Row>
       </Grid>
 
-      <Helmet>
+      <MetaTags>
         <title>Avocado - Home</title>
         <meta property='og:title' content='Avocado' />
         <meta name='description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
         <meta property='og:image' content='/Images/Logo_White.svg' />
-      </Helmet>
+      </MetaTags>
     </div>
   );
 };
 
 export default Body;
+
+const StyledImage = Styled(Image)`
+border:8px ridge #Eeedb9;
+    box-shadow: 5px 5px 15px rgba(238,237,185,0.4);
+    
+`;

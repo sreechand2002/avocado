@@ -27,7 +27,7 @@ const MobileHeader = () => {
       key: 'services',
       text: (
         <span>
-          <Icon name='home' />
+          <Icon name='file' />
           Services
         </span>
       )
