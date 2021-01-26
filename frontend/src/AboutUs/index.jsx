@@ -117,9 +117,9 @@ const About = () => {
 
       <Helmet>
         <title>Avocado - About us</title>
-        <meta property='og:title' content='Avocado' />
-        <meta property='og:description' content='Avocado is a service providing tech start-up to endure consumer needs.' />
-        <meta property='og:image' content='/Images/Logo_White.svg' />
+        <meta property='og:title' content='Avocado' data-react-helmet='true' />
+        <meta property='og:description' content='Avocado is a service providing tech start-up to endure consumer needs.' data-react-helmet='true' />
+        <meta property='og:image' content='/Images/Logo_White.svg' data-react-helmet='true' />
       </Helmet>
     </div>
   );
